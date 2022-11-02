@@ -1,0 +1,6 @@
+.section {
+    background-color: green;
+    /*width: 100%;*/
+    min-height: 95vh;
+    border: 1px solid red;
+}
