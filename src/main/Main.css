@@ -7,11 +7,23 @@
     /*opacity: 0.4;*/
 }
 
-#main h1 {
-    font-family: var(--font-ornate);
+#main h1.display-1 {
     color: var(--dark-brown);
+}
+
+#main h1.display-1, #main h2 {
+    font-family: var(--font-ornate);
     transition: all .5s linear;
 }
-#main h1:hover {
+#main h1.display-1:hover, #main h2:hover {
     transform: scale(1.1);
+}
+
+#main a {
+    color: var(--light-brown);
+}
+
+#main small {
+    font-size: .7em;
+    opacity: .7;
 }

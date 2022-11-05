@@ -19,7 +19,9 @@ class Menu extends React.Component {
                             <Nav.Link as={ScrollerLink} to="accommodation" spy={true} activeClass="active">Szállás</Nav.Link>
                         </Nav>
                         <Nav className="mr-auto">
-                            <Nav.Link as={ScrollerLink} to="rsvp" className="rsvp">Visszajelzés</Nav.Link>
+                            <span className="button">
+                                <Nav.Link as={ScrollerLink} to="rsvp" className="rsvp">Visszajelzés</Nav.Link>
+                            </span>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

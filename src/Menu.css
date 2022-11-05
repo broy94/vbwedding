@@ -19,15 +19,19 @@ a.navbar-brand {
     font-size: 30px;
     color: var(--dark-brown);
     border-radius: 50%;
-    box-shadow: 1px 1px 1px 1px var(--light-brown), 2px 2px 2px 2px var(--dark-brown);
-    border: 1px solid var(--dark-brown);
+    box-shadow: 1px 1px 1px 1px var(--dark-brown);
+    border: 1px solid var(--light-brown);
+    background-color: var(--bg-color-section);
 }
 a.navbar-brand:hover {
-    box-shadow: 1px 1px 1px 1px var(--light-brown), 2px 2px 2px 2px var(--dark-brown), 0 0 1px 1px var(--light-brown) inset;
+    color: var(--dark-brown);
+    box-shadow: 0 0 1px 1px var(--dark-brown) inset, 0 0 2px 2px var(--light-brown) inset;
 }
 
 div.navbar-nav {
     font-family: var(--font-menu);
+    letter-spacing: 2px;
+    font-size: 1.3em;
 }
 
 div.navbar-nav.me-auto a.nav-link:hover {
@@ -49,7 +53,7 @@ span:has(a.navbar-brand.active-main) {
     transition: transform 0.5s linear;
 }
 
-a.navbar-brand:hover, div.navbar-nav a.nav-link {
+div.navbar-nav a.nav-link {
     color: var(--light-brown);
 }
 
@@ -67,13 +71,4 @@ button.navbar-toggler .navbar-toggler-icon {
 button.navbar-toggler {
     color: var(--dark-brown);
     border-color: var(--dark-brown);
-}
-
-span.scroller-link a.rsvp {
-    border: 1px solid var(--light-brown);
-    border-radius: 4px;
-    box-shadow: 0 0 1px 1px var(--dark-brown) inset;
-}
-span.scroller-link a.rsvp:hover {
-    box-shadow: 0 0 1px 1px var(--dark-brown) inset, 0 0 2px 2px var(--light-brown) inset;
 }
