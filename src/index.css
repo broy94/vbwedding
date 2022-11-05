@@ -1,4 +1,17 @@
+:root {
+  --dark-brown: #86530e;
+  --light-brown: #bd8332;
+  --menu-height: 59px;
+  --font-ornate: 'Amatic SC', cursive;
+  --font-common: var(--font-ornate);
+  --font-menu: 'Cinzel', serif;
+  --bg-color-menu: beige;
+  --bg-color-section: #f3f3e7;
+}
+
 body {
+  overflow: hidden;
+  user-select: none;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

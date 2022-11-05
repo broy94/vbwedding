@@ -1,23 +1,52 @@
-:root {
-    --dark-brown: #975c14;
-    --light-brown: #bd8332;
+nav.bg-light {
+    background-color: var(--bg-color-menu) !important;
 }
 
-nav.bg-light {
-    background-color: beige !important;
+nav {
+    height: var(--menu-height);
+}
+
+div.navbar-collapse span.scroller-link {
+    background-color: var(--bg-color-menu);
+}
+
+span:has(a.navbar-brand) {
+    rotate: -10deg;
 }
 
 a.navbar-brand {
-    font-family: 'Dancing Script', cursive;
+    font-family: var(--font-ornate);
     font-size: 30px;
     color: var(--dark-brown);
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px var(--light-brown), 2px 2px 2px 2px var(--dark-brown);
+    border: 1px solid var(--dark-brown);
+}
+a.navbar-brand:hover {
+    box-shadow: 1px 1px 1px 1px var(--light-brown), 2px 2px 2px 2px var(--dark-brown), 0 0 1px 1px var(--light-brown) inset;
 }
 
 div.navbar-nav {
-    font-family: 'Cinzel', serif;
+    font-family: var(--font-menu);
 }
-div.navbar-nav a.nav-link:hover {
+
+div.navbar-nav.me-auto a.nav-link:hover {
     color: var(--dark-brown);
+    text-decoration-line: underline;
+    text-underline-offset: 7px;
+}
+.navbar-nav .nav-link.active  {
+    color: var(--dark-brown);
+    text-decoration-line: underline;
+    text-underline-offset: 7px;
+}
+
+span:has(a.navbar-brand:not(.active-main)) {
+    transition: transform 0.5s linear;
+}
+span:has(a.navbar-brand.active-main) {
+    transform: scale(1.1);
+    transition: transform 0.5s linear;
 }
 
 a.navbar-brand:hover, div.navbar-nav a.nav-link {
@@ -40,11 +69,11 @@ button.navbar-toggler {
     border-color: var(--dark-brown);
 }
 
-span.scroller-link:has(a.rsvp), span.scroller-link a.rsvp {
-    color: beige;
-    background-color: var(--dark-brown);
+span.scroller-link a.rsvp {
+    border: 1px solid var(--light-brown);
+    border-radius: 4px;
+    box-shadow: 0 0 1px 1px var(--dark-brown) inset;
 }
 span.scroller-link a.rsvp:hover {
-    color: beige;
-    background-color: var(--light-brown);
+    box-shadow: 0 0 1px 1px var(--dark-brown) inset, 0 0 2px 2px var(--light-brown) inset;
 }
