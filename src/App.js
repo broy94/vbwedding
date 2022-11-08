@@ -2,6 +2,7 @@ import './App.css';
 import Section from './Section';
 import Menu from "./Menu";
 import Main from "./main/Main";
+import CountdownBar from "./countdown/CountdownBar";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Section id="seating">seating</Section>
             <Section id="accommodation">accommodation</Section>
         </div>
+        <CountdownBar />
     </div>
   );
 }

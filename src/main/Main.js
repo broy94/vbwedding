@@ -17,7 +17,7 @@ class Main extends React.Component {
                         <Col><h2>2023.06.03.</h2></Col>
                     </Row>
                     <Row>
-                        <Col><h1 className="display-1">Viki & Bubi Wedding</h1></Col>
+                        <Col><h1 className="display-1">Viki & Bubi Esküvő</h1></Col>
                     </Row>
                     <Row className="mt-1">
                         <Col>

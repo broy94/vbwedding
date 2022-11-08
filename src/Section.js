@@ -5,7 +5,7 @@ class Section extends React.Component {
     render() {
         return (
             <div id={this.props.id} className="section">
-                 {this.props.children}
+                {this.props.children}
             </div>
         );
     }

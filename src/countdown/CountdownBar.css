@@ -1,0 +1,7 @@
+div.countdown {
+    font-family: var(--font-common);
+    /*font-size: 2.5em;*/
+    color: var(--bg-color-section);
+    background-color: var(--light-brown);
+    opacity: .8;
+}
