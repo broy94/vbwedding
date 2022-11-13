@@ -3,20 +3,33 @@ import Section from './Section';
 import Menu from "./Menu";
 import Main from "./main/Main";
 import CountdownBar from "./countdown/CountdownBar";
+import {localizedStrings} from "./Localization";
+import {useState} from "react";
 
 function App() {
-  return (
-    <div className="app">
-        <Menu />
-        <div className="content">
-            <Main />
-            <Section id="rsvp">rsvp</Section>
-            <Section id="schedule">schedule</Section>
-            <Section id="seating">seating</Section>
-            <Section id="accommodation">accommodation</Section>
+    const initLang = localizedStrings.getInterfaceLanguage() === "hu-HU" ? "hu" : "en";
+    const [language, setLanguage] = useState(initLang);
+
+    const onLanguageChange = ({value}) => {
+        localizedStrings.setLanguage(value);
+        setLanguage(value);
+    };
+
+    return (
+        <div className="app">
+            <Menu onLanguageChange={onLanguageChange} currentLanguage={language} />
+            <div className="content">
+                <Main />
+                <Section id="schedule">schedule</Section>
+                <Section id="seating">seating</Section>
+                <Section id="accommodation">accommodation</Section>
+                <Section id="rsvp">
+                    {/*rsvp*/}
+                    {localizedStrings.getLanguage()}
+                </Section>
+            </div>
+            <CountdownBar />
         </div>
-        <CountdownBar />
-    </div>
   );
 }
 

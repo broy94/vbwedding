@@ -27,3 +27,7 @@
     font-size: .7em;
     opacity: .7;
 }
+
+#main a.rsvp {
+    letter-spacing: 1px;
+}

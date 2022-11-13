@@ -1,31 +1,34 @@
-import React from 'react';
 import './CountdownBar.css';
 import Countdown from "react-countdown";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHourglassHalf} from "@fortawesome/free-solid-svg-icons";
+import {localizedStrings} from "../Localization";
 
-const toTimeStr = (unit, unitStr) => {
+const toTimeStr = (unit, translatedUnit) => {
+    const unitStr = unit === 1 ? translatedUnit.singular : translatedUnit.plural;
     return unit > 0 ? `${unit} ${unitStr}` : "";
 }
+const WEDDING_DATE = new Date(2023,6-1,3,16,0,0);
 
-class CountdownBar extends React.Component {
-    WEDDING_DATE = new Date(2023,6-1,3,16,0,0);
-    renderer({days, hours, minutes, seconds, completed}) {
-        const daysStr = toTimeStr(days, "nap");
-        const hoursStr = toTimeStr(hours, "óra");
-        const minutesStr = toTimeStr(minutes, "perc");
-        const secondsStr = toTimeStr(seconds, "másodperc");
+function CountdownBar() {
+    const renderer = ({days, hours, minutes, seconds, completed}) => {
+        const daysStr = toTimeStr(days, localizedStrings.countdown.day);
+        const hoursStr = toTimeStr(hours, localizedStrings.countdown.hour);
+        const minutesStr = toTimeStr(minutes, localizedStrings.countdown.minute);
+        const secondsStr = toTimeStr(seconds, localizedStrings.countdown.second);
         if (!completed)
             return `${daysStr} ${hoursStr} ${minutesStr} ${secondsStr}`;
     }
 
-    render() {
-        return (
-            <div className="countdown sticky-bottom">
-                <h1>
-                    <Countdown date={this.WEDDING_DATE} className="align-middle" renderer={this.renderer} />
-                </h1>
-            </div>
-        );
-    }
+    return (
+        <div className="countdown sticky-bottom">
+            <h2>
+                <FontAwesomeIcon icon={faHourglassHalf} />
+                &nbsp;
+                <Countdown date={WEDDING_DATE} className="align-middle" renderer={renderer} />
+            </h2>
+        </div>
+    );
 }
 
 export default CountdownBar;
