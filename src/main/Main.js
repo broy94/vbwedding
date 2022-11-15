@@ -19,7 +19,7 @@ function Main() {
                 <Row className="mt-1">
                     <Col>
                         <a href={googleMapsLink} target="_blank" rel="noreferrer">
-                            <span className="button hover p-3">
+                            <span className="button hover-button p-3">
                                 <h1 className="mb-0">{localizedStrings.main.venue.title}</h1>
                                 <small>{localizedStrings.main.venue.location}</small>
                             </span>
@@ -28,7 +28,7 @@ function Main() {
                 </Row>
                 <Row className="mt-1">
                     <Col>
-                        <span className="button mt-3 px-2 py-0">
+                        <span className="button mt-3 px-2 py-0 rsvp">
                             <a href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank">
                                 {localizedStrings.main.rsvpButton}
                             </a>

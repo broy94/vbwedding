@@ -30,6 +30,15 @@
     opacity: .7;
 }
 
-#main a.rsvp {
-    letter-spacing: 1px;
+/*#region RSVP button*/
+#main span.rsvp {
+    box-shadow: 1px 1px 1px 1px var(--dark-brown);
 }
+#main span.rsvp:hover {
+    background-color: var(--bg-color-menu)
+}
+#main span.rsvp a {
+    font-size: .9em;
+    font-family: var(--font-common);
+}
+/*#endregion*/

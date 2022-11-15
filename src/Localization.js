@@ -33,7 +33,7 @@ export let localizedStrings = new LocalizedStrings({
                 title: "Új Tanyacsárda, Lajosmizse",
                 location: "150 Közös, Felsőlajos, 6055"
             },
-            rsvpButton: "RSVP",
+            rsvpButton: "rsvp",
         }
     },
     hu: {
@@ -68,7 +68,7 @@ export let localizedStrings = new LocalizedStrings({
                 title: "Lajosmizse, Új Tanyacsárda",
                 location: "6055 Felsőlajos, Közös 150."
             },
-            rsvpButton: "Visszajelzés",
+            rsvpButton: "visszajelzés",
         }
     }
 });
