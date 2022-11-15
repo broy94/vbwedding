@@ -1,4 +1,6 @@
 #main {
+    font-family: var(--font-ornate);
+    font-size: 26px;
     /*background-image: url("./main_landscape.jpg");*/
     /*background-repeat: no-repeat;*/
     /*background-attachment: fixed;*/

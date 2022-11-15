@@ -3,6 +3,8 @@ import Countdown from "react-countdown";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHourglassHalf} from "@fortawesome/free-solid-svg-icons";
 import {localizedStrings} from "../Localization";
+import Container from "react-bootstrap/Container";
+import {Col, Row} from "react-bootstrap";
 
 const toTimeStr = (unit, translatedUnit) => {
     const unitStr = unit === 1 ? translatedUnit.singular : translatedUnit.plural;
@@ -22,11 +24,15 @@ function CountdownBar() {
 
     return (
         <div className="countdown sticky-bottom">
-            <h2>
-                <FontAwesomeIcon icon={faHourglassHalf} />
-                &nbsp;
-                <Countdown date={WEDDING_DATE} className="align-middle" renderer={renderer} />
-            </h2>
+            <Container>
+                <Row>
+                    <Col className="my-auto">
+                        <FontAwesomeIcon icon={faHourglassHalf} />
+                        &nbsp;
+                        <Countdown date={WEDDING_DATE} className="align-middle" renderer={renderer} />
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 }

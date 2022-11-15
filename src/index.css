@@ -3,7 +3,7 @@
   --light-brown: #bd8332;
   --menu-height: 59px;
   --font-ornate: 'Amatic SC', cursive;
-  --font-common: var(--font-ornate);
+  --font-common: 'Quicksand', sans-serif;
   /*--font-menu: 'Cinzel', serif;*/
   --font-menu: var(--font-ornate);
   --bg-color-menu: beige;
@@ -39,5 +39,8 @@ span.button:not(.hover) {
 }
 span.button:hover {
   box-shadow: 0 0 1px 1px var(--dark-brown) inset, 0 0 2px 2px var(--light-brown) inset;
+}
+span.button a {
+  text-decoration: none;
 }
 /*#endregion*/

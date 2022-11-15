@@ -23,10 +23,6 @@ function App() {
                 <Section id="schedule">schedule</Section>
                 <Section id="seating">seating</Section>
                 <Section id="accommodation">accommodation</Section>
-                <Section id="rsvp">
-                    {/*rsvp*/}
-                    {localizedStrings.getLanguage()}
-                </Section>
             </div>
             <CountdownBar />
         </div>

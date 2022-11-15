@@ -15,10 +15,10 @@ function Menu(props) {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={ScrollerLink} to="schedule" spy={true} activeClass="active">{localizedStrings.menu.schedule}</Nav.Link>
-                        <Nav.Link as={ScrollerLink} to="seating" spy={true} activeClass="active">{localizedStrings.menu.seating}</Nav.Link>
-                        <Nav.Link as={ScrollerLink} to="accommodation" spy={true} activeClass="active">{localizedStrings.menu.accommodation}</Nav.Link>
-                        <Nav.Link as={ScrollerLink} to="rsvp" className="rsvp">{localizedStrings.menu.rsvp}</Nav.Link>
+                        <Nav.Link as={ScrollerLink} to="schedule" spy={true} activeClass="active-link">{localizedStrings.menu.schedule}</Nav.Link>
+                        <Nav.Link as={ScrollerLink} to="seating" spy={true} activeClass="active-link">{localizedStrings.menu.seating}</Nav.Link>
+                        <Nav.Link as={ScrollerLink} to="accommodation" spy={true} activeClass="active-link">{localizedStrings.menu.accommodation}</Nav.Link>
+                        <Nav.Link href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank" className="rsvp">{localizedStrings.menu.rsvp}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <LanguageSelector className="d-none d-md-block" onLanguageChange={props.onLanguageChange}  currentLanguage={props.currentLanguage}/>

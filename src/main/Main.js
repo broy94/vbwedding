@@ -2,8 +2,6 @@ import './Main.css';
 import Section from "../Section";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
-import Nav from 'react-bootstrap/Nav';
-import ScrollerLink from "../ScrollerLink";
 import {localizedStrings} from "../Localization";
 
 const googleMapsLink = "https://goo.gl/maps/c9ff9wVG3VXiVAAV8";
@@ -31,7 +29,9 @@ function Main() {
                 <Row className="mt-1">
                     <Col>
                         <span className="button mt-3 px-2 py-0">
-                            <Nav.Link as={ScrollerLink} to="rsvp" className="rsvp">{localizedStrings.main.rsvpButton}</Nav.Link>
+                            <a href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank">
+                                {localizedStrings.main.rsvpButton}
+                            </a>
                         </span>
                     </Col>
                 </Row>

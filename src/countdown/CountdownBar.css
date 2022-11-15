@@ -1,7 +1,16 @@
+:root {
+    --countdown-bar-height: 4vh;
+}
+
 div.countdown {
     font-family: var(--font-common);
-    /*font-size: 2.5em;*/
     color: var(--bg-color-section);
     background-color: var(--light-brown);
     opacity: .8;
+    min-height: var(--countdown-bar-height);
+}
+
+div.countdown div.container,
+div.countdown div.container div.row {
+    min-height: var(--countdown-bar-height);
 }

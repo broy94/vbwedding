@@ -1,7 +1,10 @@
+:root {
+    --section-height: calc(101vh - var(--menu-height));
+}
+
 .section {
     font-family: var(--font-common);
-    font-size: 26px;
-    min-height: calc(101vh - var(--menu-height));
+    min-height: var(--section-height);
     background-color: var(--bg-color-section);
     color: var(--light-brown);
 }

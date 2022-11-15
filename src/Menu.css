@@ -39,7 +39,7 @@ div.navbar-nav.me-auto a.nav-link:hover {
     text-decoration-line: underline;
     text-underline-offset: 7px;
 }
-.navbar-nav .nav-link.active  {
+.navbar-nav .nav-link.active-link  {
     color: var(--dark-brown);
     text-decoration-line: underline;
     text-underline-offset: 7px;
@@ -53,8 +53,10 @@ span:has(a.navbar-brand.active-main) {
     transition: transform 0.5s linear;
 }
 
-div.navbar-nav a.nav-link {
-    color: var(--light-brown);
+div.navbar-nav a.nav-link,
+div.navbar-nav a.nav-link.active-link
+{
+    color: var(--light-brown) !important;
 }
 
 button.navbar-toggler.collapsed .navbar-toggler-icon {
