@@ -10,23 +10,23 @@ div.navbar-collapse span.scroller-link {
     background-color: var(--bg-color-menu);
 }
 
-span:has(a.navbar-brand) {
-    rotate: -10deg;
-}
-
+/*#region NAVBAR BRAND*/
 a.navbar-brand {
     font-family: var(--font-ornate);
     font-size: 30px;
     color: var(--dark-brown);
-    border-radius: 50%;
-    box-shadow: 1px 1px 1px 1px var(--dark-brown);
-    border: 1px solid var(--light-brown);
-    background-color: var(--bg-color-section);
 }
 a.navbar-brand:hover {
-    color: var(--dark-brown);
-    box-shadow: 0 0 1px 1px var(--dark-brown) inset, 0 0 2px 2px var(--light-brown) inset;
+    color: var(--light-brown);
 }
+span:has(a.navbar-brand:not(.active-main)) {
+    transition: transform 0.5s linear;
+}
+span:has(a.navbar-brand.active-main) {
+    transform: scale(1.1);
+    transition: transform 0.5s linear;
+}
+/*#endregion*/
 
 div.navbar-nav {
     font-family: var(--font-menu);
@@ -43,14 +43,6 @@ div.navbar-nav.me-auto a.nav-link:hover {
     color: var(--dark-brown);
     text-decoration-line: underline;
     text-underline-offset: 7px;
-}
-
-span:has(a.navbar-brand:not(.active-main)) {
-    transition: transform 0.5s linear;
-}
-span:has(a.navbar-brand.active-main) {
-    transform: scale(1.1);
-    transition: transform 0.5s linear;
 }
 
 div.navbar-nav a.nav-link,
