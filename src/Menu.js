@@ -5,12 +5,15 @@ import ScrollerLink from "./ScrollerLink";
 import LanguageSelector from "./language-selector/LanguageSelector";
 import './Menu.css';
 import {localizedStrings} from "./Localization";
+import Brand from "./brand.png";
 
 function Menu(props) {
     return (
         <Navbar sticky="top" bg="light" expand="md">
             <Container>
-                <Navbar.Brand as={ScrollerLink} to="main" spy={true} activeClass="active-main" className="px-3">Viki & Bubi</Navbar.Brand>
+                <Navbar.Brand as={ScrollerLink} to="main" spy={true} activeClass="active-main" className="px-2">
+                    <img src={Brand} alt="Viki & Bubi" className="logo" />
+                </Navbar.Brand>
                 <LanguageSelector className="d-md-none ms-auto" onLanguageChange={props.onLanguageChange} currentLanguage={props.currentLanguage} />
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

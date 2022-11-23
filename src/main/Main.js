@@ -1,4 +1,4 @@
-import './Main.css';
+import "./Main.css";
 import Section from "../Section";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
@@ -9,24 +9,24 @@ const googleMapsLink = "https://goo.gl/maps/c9ff9wVG3VXiVAAV8";
 function Main() {
     return (
         <Section id="main">
-            <Container className="position-absolute top-50 start-50 translate-middle">
+            <Container className="pt-5">
                 <Row>
                     <Col><h2>{localizedStrings.main.date}</h2></Col>
                 </Row>
                 <Row>
                     <Col><h1 className="display-1">{localizedStrings.main.title}</h1></Col>
                 </Row>
-                <Row className="mt-1">
+                <Row>
                     <Col>
                         <a href={googleMapsLink} target="_blank" rel="noreferrer">
-                            <span className="button hover-button p-3">
+                            <span className="button hover-button py-2">
                                 <h1 className="mb-0">{localizedStrings.main.venue.title}</h1>
                                 <small>{localizedStrings.main.venue.location}</small>
                             </span>
                         </a>
                     </Col>
                 </Row>
-                <Row className="mt-1">
+                <Row>
                     <Col>
                         <span className="button mt-3 px-2 py-0 rsvp">
                             <a href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank">

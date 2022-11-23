@@ -5,6 +5,7 @@ import Main from "./main/Main";
 import CountdownBar from "./countdown/CountdownBar";
 import {localizedStrings} from "./Localization";
 import {useState} from "react";
+import Schedule from "./schedule/Schedule";
 
 function App() {
     const initLang = localizedStrings.getInterfaceLanguage() === "hu-HU" ? "hu" : "en";
@@ -20,7 +21,7 @@ function App() {
             <Menu onLanguageChange={onLanguageChange} currentLanguage={language} />
             <div className="content">
                 <Main />
-                <Section id="schedule">schedule</Section>
+                <Schedule />
                 <Section id="seating">seating</Section>
                 <Section id="accommodation">accommodation</Section>
             </div>

@@ -1,5 +1,5 @@
 nav.bg-light {
-    background-color: var(--bg-color-menu) !important;
+    background-color: var(--bg-color) !important;
 }
 
 nav {
@@ -7,10 +7,17 @@ nav {
 }
 
 div.navbar-collapse span.scroller-link {
-    background-color: var(--bg-color-menu);
+    background-color: var(--bg-color);
 }
 
 /*#region NAVBAR BRAND*/
+.navbar-brand img.logo {
+    /*width: 100px;*/
+    height: 40px;
+    /*border: 1px solid black;*/
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px 1px var(--dark-brown);
+}
 a.navbar-brand {
     font-family: var(--font-ornate);
     font-size: 30px;

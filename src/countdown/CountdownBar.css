@@ -4,9 +4,9 @@
 
 div.countdown {
     font-family: var(--font-common);
-    color: var(--bg-color-section);
+    color: var(--bg-color);
     background-color: var(--light-brown);
-    opacity: .8;
+    opacity: .9;
     min-height: var(--countdown-bar-height);
 }
 

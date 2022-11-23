@@ -6,12 +6,11 @@
   --font-common: 'Quicksand', sans-serif;
   /*--font-menu: 'Cinzel', serif;*/
   --font-menu: var(--font-ornate);
-  --bg-color-menu: beige;
-  --bg-color-section: #f3f3e7;
+  --bg-color: beige;
 }
 
 body {
-  overflow: hidden;
+  /*overflow: hidden;*/
   user-select: none;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

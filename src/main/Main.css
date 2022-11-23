@@ -1,12 +1,8 @@
 #main {
     font-family: var(--font-ornate);
     font-size: 26px;
-    /*background-image: url("./main_landscape.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-attachment: fixed;*/
-    /*background-size: 100%;*/
-    /*background-position: left center;*/
-    /*opacity: 0.4;*/
+    background-image: url("./main.png");
+    text-align: left;
 }
 
 #main h1.display-1 {
@@ -15,10 +11,6 @@
 
 #main h1.display-1, #main h2 {
     font-family: var(--font-ornate);
-    transition: all .5s linear;
-}
-#main h1.display-1:hover, #main h2:hover {
-    transform: scale(1.1);
 }
 
 #main a {
@@ -35,7 +27,7 @@
     box-shadow: 1px 1px 1px 1px var(--dark-brown);
 }
 #main span.rsvp:hover {
-    background-color: var(--bg-color-menu)
+    background-color: var(--bg-color)
 }
 #main span.rsvp a {
     font-size: .9em;
