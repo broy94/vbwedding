@@ -1,0 +1,6 @@
+#accommodation a {
+    color: var(--dark-brown);
+}
+#accommodation a:hover {
+    color: var(--light-brown);
+}
