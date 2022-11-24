@@ -1,8 +1,21 @@
 #main {
     font-family: var(--font-ornate);
     font-size: 26px;
-    background-image: url("./main.png");
     text-align: left;
+
+    background-image: url("./main.png");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: right;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 450px) {
+    #main {
+        background-image: url("./main.png");
+        background-position: left;
+        background-size: cover;
+    }
 }
 
 #main h1.display-1 {

@@ -34,6 +34,12 @@ export let localizedStrings = new LocalizedStrings({
                 location: "150 Közös, Felsőlajos, 6055"
             },
             rsvpButton: "rsvp",
+        },
+        accommodation: {
+            information: {
+                text: "All the rooms of Tanyacsárda's (the venue's) accommodation have been reserved for the young couple and their close relatives (altogether 31 people). However, if needed, further reservations can be made at the accommodations listed below. We recommend to book your rooms as soon as possible, while there are still spaces available. Further information can be found ",
+                linkText: "at the venue's website"
+            }
         }
     },
     hu: {
@@ -69,6 +75,12 @@ export let localizedStrings = new LocalizedStrings({
                 location: "6055 Felsőlajos, Közös 150."
             },
             rsvpButton: "visszajelzés",
+        },
+        accommodation: {
+            information: {
+                text: "A Tanyacsárda saját szálláshelyének összes férőhelye le van foglalva az ifjú pár és közeli hozzátartozói részére (össz. 31 fő). Azonban igény esetén az alábbi környékbeli helyeken lehet további szállásokat foglalni. Javasoljuk, hogy minél előbb foglaljanak, mert hamar betelhetnek a helyek. További információ a ",
+                linkText: "Tanyacsárda honlapján"
+            }
         }
     }
 });

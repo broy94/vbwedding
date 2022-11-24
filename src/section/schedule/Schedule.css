@@ -1,4 +1,6 @@
 #schedule {
-    background-image: url("./schedule.png");
+    background-image: url("./viki.png");
+    background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
 }

@@ -1,3 +1,16 @@
+@media only screen and (min-width: 450px) {
+    #accommodation {
+        background-image: url("./accommodation.png");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 30%;
+    }
+}
+
+#accommodation div.container {
+    min-height: var(--section-height);
+}
+
 #accommodation a {
     color: var(--dark-brown);
 }
