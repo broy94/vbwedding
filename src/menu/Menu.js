@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import ScrollerLink from "./ScrollerLink";
-import LanguageSelector from "./language-selector/LanguageSelector";
+import ScrollerLink from "../scroller-link/ScrollerLink";
+import LanguageSelector from "../language-selector/LanguageSelector";
 import './Menu.css';
-import {localizedStrings} from "./Localization";
-import Brand from "./brand.png";
+import {localizedStrings} from "../Localization";
+import Brand from "../brand.png";
 
 function Menu(props) {
     return (

@@ -2,7 +2,7 @@ import "./Main.css";
 import Section from "../Section";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
-import {localizedStrings} from "../Localization";
+import {localizedStrings} from "../../Localization";
 
 const googleMapsLink = "https://goo.gl/maps/c9ff9wVG3VXiVAAV8";
 

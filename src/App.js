@@ -1,11 +1,11 @@
 import './App.css';
-import Section from './Section';
-import Menu from "./Menu";
-import Main from "./main/Main";
+import Section from './section/Section';
+import Menu from "./menu/Menu";
+import Main from "./section/main/Main";
 import CountdownBar from "./countdown/CountdownBar";
 import {localizedStrings} from "./Localization";
 import {useState} from "react";
-import Schedule from "./schedule/Schedule";
+import Schedule from "./section/schedule/Schedule";
 
 function App() {
     const initLang = localizedStrings.getInterfaceLanguage() === "hu-HU" ? "hu" : "en";
