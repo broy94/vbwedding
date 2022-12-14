@@ -1,12 +1,15 @@
 :root {
   --dark-color: #86530e;
   --light-color: #bd8332;
+  --bg-color: beige;
+  --light-bg-color: beige;
+
   --menu-height: 59px;
+
   --font-ornate: 'Amatic SC', cursive;
   --font-common: 'Quicksand', sans-serif;
   /*--font-menu: 'Cinzel', serif;*/
   --font-menu: var(--font-ornate);
-  --bg-color: beige;
 }
 
 body {
@@ -30,8 +33,11 @@ span.button {
   cursor: pointer;
   display: inline-block;
 }
-span.button:hover {
+span.button:not(.hover-button):hover {
   box-shadow: 1px 1px 1px 1px var(--dark-color);
+}
+span.button:not(.hover-button), span.button.hover-button:hover {
+  box-shadow: 1px 1px 1px 1px var(--light-color);
 }
 span.button a {
   text-decoration: none;
