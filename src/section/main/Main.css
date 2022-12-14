@@ -44,6 +44,7 @@
 }
 #main span.rsvp a {
     font-size: .9em;
-    font-family: var(--font-common);
+    font-family: var(--font-ornate);
+    letter-spacing: 2px;
 }
 /*#endregion*/
