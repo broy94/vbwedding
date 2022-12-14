@@ -1,6 +1,6 @@
 :root {
-  --dark-brown: #86530e;
-  --light-brown: #bd8332;
+  --dark-color: #86530e;
+  --light-color: #bd8332;
   --menu-height: 59px;
   --font-ornate: 'Amatic SC', cursive;
   --font-common: 'Quicksand', sans-serif;
@@ -31,11 +31,7 @@ span.button {
   display: inline-block;
 }
 span.button:hover {
-  /*box-shadow: 0 0 6px 0 var(--dark-brown) inset;*/
-  /*border-radius: 2px;*/
-  /*background-color: var(--bg-color-menu);*/
-  /*box-shadow: 0 0 1px 1px var(--dark-brown) inset, 0 0 2px 2px var(--light-brown) inset;*/
-  box-shadow: 1px 1px 1px 1px var(--dark-brown);
+  box-shadow: 1px 1px 1px 1px var(--dark-color);
 }
 span.button a {
   text-decoration: none;

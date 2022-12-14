@@ -12,8 +12,8 @@
 }
 
 #accommodation a {
-    color: var(--dark-brown);
+    color: var(--dark-color);
 }
 #accommodation a:hover {
-    color: var(--light-brown);
+    color: var(--light-color);
 }

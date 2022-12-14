@@ -39,7 +39,7 @@ const customStyles = {
             backgroundColor: state.isSelected ? 'var(--bg-color)' : 'var(--bg-color)',
             padding: 0,
             borderRadius: '2px',
-            border: '1px solid var(--light-brown)'
+            border: '1px solid var(--light-color)'
         };
     }
 };
