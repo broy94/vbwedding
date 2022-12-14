@@ -14,9 +14,7 @@ div.navbar-collapse span.scroller-link {
 .navbar-brand img.logo {
     /*width: 100px;*/
     height: 40px;
-    /*border: 1px solid black;*/
-    border-radius: 20%;
-    box-shadow: 2px 2px 2px 1px var(--dark-brown);
+    border-radius: 35%;
 }
 a.navbar-brand {
     font-family: var(--font-ornate);
