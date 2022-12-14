@@ -6,14 +6,13 @@
     background-image: url("./main.png");
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
-    background-position: right;
+    background-position: 80%;
     background-size: contain;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
     #main {
-        background-image: url("./main.png");
-        background-position: left;
+        /*background-position: right;*/
         background-size: cover;
     }
 }
@@ -33,6 +32,12 @@
 #main small {
     font-size: .7em;
     opacity: .7;
+}
+
+#main small.details {
+    font-size: .6em;
+    font-family: var(--font-common);
+    font-style: italic;
 }
 
 /*#region RSVP button*/

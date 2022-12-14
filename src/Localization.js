@@ -34,6 +34,7 @@ export let localizedStrings = new LocalizedStrings({
                 location: "150 Közös, Felsőlajos, 6055"
             },
             rsvpButton: "rsvp",
+            details: "...further details coming soon..."
         },
         accommodation: {
             information: {
@@ -75,6 +76,7 @@ export let localizedStrings = new LocalizedStrings({
                 location: "6055 Felsőlajos, Közös 150."
             },
             rsvpButton: "visszajelzés",
+            details: "...további részletek hamarosan..."
         },
         accommodation: {
             information: {

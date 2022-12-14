@@ -9,7 +9,12 @@ const googleMapsLink = "https://goo.gl/maps/c9ff9wVG3VXiVAAV8";
 function Main() {
     return (
         <Section id="main">
-            <Container className="pt-5">
+            <Container className="pt-3">
+                <Row>
+                    <Col className="pb-4 text-center">
+                        <small className="details">{localizedStrings.main.details}</small>
+                    </Col>
+                </Row>
                 <Row>
                     <Col><h2>{localizedStrings.main.date}</h2></Col>
                 </Row>

@@ -22,8 +22,8 @@ function App() {
             <Menu onLanguageChange={onLanguageChange} currentLanguage={language} />
             <div className="content">
                 <Main />
-                <Schedule />
-                <Section id="seating">seating</Section>
+                {/*<Schedule />*/}
+                {/*<Section id="seating">seating</Section>*/}
                 <Accommodation />
             </div>
             <CountdownBar />
