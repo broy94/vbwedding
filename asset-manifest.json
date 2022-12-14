@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vbwedding/static/css/main.2bab006b.css",
+    "main.js": "/vbwedding/static/js/main.5337d028.js",
+    "static/media/main.png": "/vbwedding/static/media/main.2e103a4bd16d2095f159.png",
+    "static/media/viki.png": "/vbwedding/static/media/viki.1090ec4db90e896c5890.png",
+    "static/media/brand.png": "/vbwedding/static/media/brand.449777a8f48b7d29adee.png",
+    "static/media/accommodation.png": "/vbwedding/static/media/accommodation.21578bd342a8d7816478.png",
+    "index.html": "/vbwedding/index.html",
+    "main.2bab006b.css.map": "/vbwedding/static/css/main.2bab006b.css.map",
+    "main.5337d028.js.map": "/vbwedding/static/js/main.5337d028.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bab006b.css",
+    "static/js/main.5337d028.js"
+  ]
+}
