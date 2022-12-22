@@ -33,10 +33,10 @@ function AccommodationCard(props) {
                     <a href={`mailto:${props.accommodation.email}`} className="small px-1">
                         <FontAwesomeIcon icon={faEnvelope} />
                     </a>
-                    <a href={`${props.accommodation.maps}`} target="_blank" className="small px-1">
+                    <a href={`${props.accommodation.maps}`} target="_blank" rel="noreferrer" className="small px-1">
                         <FontAwesomeIcon icon={faMapLocationDot} />
                     </a>
-                    <a href={`${props.accommodation.website}`} target="_blank" className="small px-1">
+                    <a href={`${props.accommodation.website}`} target="_blank" rel="noreferrer" className="small px-1">
                         <FontAwesomeIcon icon={faGlobe} />
                     </a>
                 </div>

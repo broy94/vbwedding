@@ -34,7 +34,7 @@ function Main() {
                 <Row>
                     <Col>
                         <span className="button mt-3 px-2 py-0 rsvp">
-                            <a href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank">
+                            <a href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank" rel="noreferrer">
                                 {localizedStrings.main.rsvpButton}
                             </a>
                         </span>

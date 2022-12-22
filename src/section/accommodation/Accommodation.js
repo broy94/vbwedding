@@ -80,7 +80,7 @@ function Accommodation() {
                             <h2>
                                 <FontAwesomeIcon icon={faCircleInfo}/>
                             </h2>
-                            {localizedStrings.accommodation.information.text} <a href="https://www.tanyacsarda.hu/szolgaltatasaink/szallas/" target="_blank">{localizedStrings.accommodation.information.linkText}</a>.
+                            {localizedStrings.accommodation.information.text} <a href="https://www.tanyacsarda.hu/szolgaltatasaink/szallas/" target="_blank" rel="noreferrer">{localizedStrings.accommodation.information.linkText}</a>.
                         </div>
                     </Col>
                 </Row>

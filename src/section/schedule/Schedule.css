@@ -1,6 +1,10 @@
 #schedule {
-    background-image: url("./viki.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
+    /*background-image: url("./viki.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right;*/
+    /*background-size: contain;*/
+}
+
+.vertical-timeline {
+    text-align: left;
 }

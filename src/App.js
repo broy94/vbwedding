@@ -1,5 +1,4 @@
 import './App.css';
-import Section from './section/Section';
 import Menu from "./menu/Menu";
 import Main from "./section/main/Main";
 import CountdownBar from "./countdown/CountdownBar";
@@ -22,7 +21,7 @@ function App() {
             <Menu onLanguageChange={onLanguageChange} currentLanguage={language} />
             <div className="content">
                 <Main />
-                {/*<Schedule />*/}
+                <Schedule />
                 {/*<Section id="seating">seating</Section>*/}
                 <Accommodation />
             </div>
