@@ -18,6 +18,7 @@ function Menu(props) {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
+                        <Nav.Link as={ScrollerLink} to="invitation" spy={true} activeClass="active-link">{localizedStrings.menu.invitation}</Nav.Link>
                         <Nav.Link as={ScrollerLink} to="schedule" spy={true} activeClass="active-link">{localizedStrings.menu.schedule}</Nav.Link>
                         {/*<Nav.Link as={ScrollerLink} to="seating" spy={true} activeClass="active-link">{localizedStrings.menu.seating}</Nav.Link>*/}
                         <Nav.Link as={ScrollerLink} to="accommodation" spy={true} activeClass="active-link">{localizedStrings.menu.accommodation}</Nav.Link>

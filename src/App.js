@@ -6,6 +6,7 @@ import {localizedStrings} from "./Localization";
 import {useState} from "react";
 import Schedule from "./section/schedule/Schedule";
 import Accommodation from "./section/accommodation/Accommodation";
+import Invitation from "./section/invitation/Invitation";
 
 function App() {
     const initLang = localizedStrings.getInterfaceLanguage() === "hu-HU" ? "hu" : "en";
@@ -18,16 +19,17 @@ function App() {
 
     return (
         <div className="app">
-            <Menu onLanguageChange={onLanguageChange} currentLanguage={language} />
+            <Menu onLanguageChange={onLanguageChange} currentLanguage={language}/>
             <div className="content">
-                <Main />
-                <Schedule />
+                <Main/>
+                <Invitation currentLanguage={language} />
+                <Schedule/>
                 {/*<Section id="seating">seating</Section>*/}
-                <Accommodation />
+                <Accommodation/>
             </div>
-            <CountdownBar />
+            <CountdownBar/>
         </div>
-  );
+    );
 }
 
 export default App;

@@ -1,16 +1,22 @@
 :root {
-  --dark-color: #86530e;
-  --light-color: #bd8332;
-  --bg-color: beige;
-  /*--dark-color: #3b3b3b;*/
-  /*--light-color: #706d6d;*/
-  /*--bg-color: #d7d7d7;*/
+  /*--dark-color: #86530e;*/
+  /*--light-color: #bd8332;*/
+  /*--bg-color: beige;*/
+
+  --dark-color: #3b3b3b;
+  --light-color: #706d6d;
+  /*--bg-color: red;*/
+  --bg-color: #f8f8f8;
+
+  /*--dark-color: #9d985d;*/
+  /*--light-color: #bcb45d;*/
+  /*--bg-color: #f2eec1;*/
 
   --menu-height: 59px;
 
   --font-ornate: 'Amatic SC', cursive;
-  --font-common: 'Quicksand', sans-serif;
-  /*--font-menu: 'Cinzel', serif;*/
+  /*--font-common: 'Quicksand', sans-serif;*/
+  --font-common: 'Cinzel', serif;
   --font-menu: var(--font-ornate);
 }
 
@@ -23,6 +29,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
 }
 
 code {

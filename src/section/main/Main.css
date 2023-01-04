@@ -1,7 +1,7 @@
 #main {
     font-family: var(--font-ornate);
-    font-size: 26px;
     text-align: left;
+    min-height: var(--section-height);
 
     background-image: url("./main.png");
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     background-size: contain;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     #main {
         /*background-position: right;*/
         background-size: cover;
@@ -30,20 +30,12 @@
 }
 
 #main small {
-    font-size: .7em;
+    font-size: 1.5em;
     opacity: .7;
 }
 
 #main small.details {
-    font-size: .6em;
+    font-size: .8em;
     font-family: var(--font-common);
-    font-style: italic;
+    /*font-style: italic;*/
 }
-
-/*#region RSVP button*/
-#main span.rsvp a {
-    font-size: .9em;
-    font-family: var(--font-ornate);
-    letter-spacing: 2px;
-}
-/*#endregion*/

@@ -2,7 +2,9 @@ import LocalizedStrings from "react-localization";
 
 export let localizedStrings = new LocalizedStrings({
     en: {
+        rsvpButton: "rsvp",
         menu: {
+            invitation: "Invitation",
             schedule: "Schedule",
             seating: "Seating",
             accommodation: "Accommodation",
@@ -33,7 +35,6 @@ export let localizedStrings = new LocalizedStrings({
                 title: "Új Tanyacsárda, Lajosmizse",
                 location: "150 Közös, Felsőlajos, 6055"
             },
-            rsvpButton: "rsvp",
             details: "...further details coming soon..."
         },
         accommodation: {
@@ -104,7 +105,9 @@ export let localizedStrings = new LocalizedStrings({
         }
     },
     hu: {
+        rsvpButton: "visszajelzés",
         menu: {
+            invitation: "Meghívó",
             schedule: "Menetrend",
             seating: "Ülésrend",
             accommodation: "Szállás",
@@ -135,7 +138,6 @@ export let localizedStrings = new LocalizedStrings({
                 title: "Lajosmizse, Új Tanyacsárda",
                 location: "6055 Felsőlajos, Közös 150."
             },
-            rsvpButton: "visszajelzés",
             details: "...további részletek hamarosan..."
         },
         accommodation: {

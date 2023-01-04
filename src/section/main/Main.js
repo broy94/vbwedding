@@ -3,6 +3,7 @@ import Section from "../Section";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
 import {localizedStrings} from "../../Localization";
+import RsvpButton from "../../rsvp-button/RsvpButton";
 
 const googleMapsLink = "https://goo.gl/maps/c9ff9wVG3VXiVAAV8";
 
@@ -33,11 +34,7 @@ function Main() {
                 </Row>
                 <Row>
                     <Col>
-                        <span className="button mt-3 px-2 py-0 rsvp">
-                            <a href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank" rel="noreferrer">
-                                {localizedStrings.main.rsvpButton}
-                            </a>
-                        </span>
+                        <RsvpButton/>
                     </Col>
                 </Row>
             </Container>

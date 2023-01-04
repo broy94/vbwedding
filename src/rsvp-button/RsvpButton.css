@@ -1,0 +1,7 @@
+span.rsvp a {
+    font-size: 1em;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    color: var(--light-color);
+    font-weight: bold;
+}

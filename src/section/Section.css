@@ -4,7 +4,7 @@
 
 .section {
     font-family: var(--font-common);
-    min-height: var(--section-height);
+    /*min-height: var(--section-height);*/
     background-color: var(--bg-color);
     color: var(--light-color);
     /*background-repeat: no-repeat;*/
