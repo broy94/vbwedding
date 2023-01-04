@@ -24,7 +24,7 @@ function TimelineElement(props) {
             id={props.element.id}
             contentStyle={{background: 'var(--light-color)', color: 'var(--bg-color)'}}
             contentArrowStyle={{borderRight: '7px solid var(--light-color)'}}
-            date={props.element.time}
+            date={localizedStrings.schedule[props.element.localizationId].time}
             dateClassName="time"
             iconStyle={{background: 'var(--light-color)', color: 'var(--bg-color)'}}
             icon={<FontAwesomeIcon icon={props.element.icon}/>}
