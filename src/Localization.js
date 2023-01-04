@@ -28,7 +28,7 @@ export let localizedStrings = new LocalizedStrings({
         },
         main: {
             title: "Viki & Bubi Wedding",
-            date: "June 3, 2021",
+            date: "June 3, 2023",
             venue: {
                 title: "Új Tanyacsárda, Lajosmizse",
                 location: "150 Közös, Felsőlajos, 6055"
