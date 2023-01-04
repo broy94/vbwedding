@@ -8,6 +8,7 @@ div.countdown {
     background-color: var(--light-color);
     opacity: .9;
     min-height: var(--countdown-bar-height);
+    font-size: .9em;
 }
 
 div.countdown div.container,

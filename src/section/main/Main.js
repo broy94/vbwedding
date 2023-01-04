@@ -12,21 +12,20 @@ function Main() {
         <Section id="main">
             <Container className="pt-3">
                 <Row>
-                    <Col className="pb-4 text-center">
-                        <small className="details">{localizedStrings.main.details}</small>
+                    <Col className="my-4">
+                        <h4>{localizedStrings.main.date}</h4>
                     </Col>
                 </Row>
                 <Row>
-                    <Col><h2>{localizedStrings.main.date}</h2></Col>
+                    <Col className="mt-3 mb-2">
+                        <h1 className="display-1 title">{localizedStrings.main.title}</h1>
+                    </Col>
                 </Row>
                 <Row>
-                    <Col><h1 className="display-1">{localizedStrings.main.title}</h1></Col>
-                </Row>
-                <Row>
-                    <Col>
+                    <Col className="my-1">
                         <a href={googleMapsLink} target="_blank" rel="noreferrer">
                             <span className="button hover-button py-2">
-                                <h1 className="mb-0">{localizedStrings.main.venue.title}</h1>
+                                <h4 className="mb-0">{localizedStrings.main.venue.title}</h4>
                                 <small>{localizedStrings.main.venue.location}</small>
                             </span>
                         </a>

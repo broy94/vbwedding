@@ -5,7 +5,6 @@
 
   --dark-color: #3b3b3b;
   --light-color: #706d6d;
-  /*--bg-color: red;*/
   --bg-color: #f8f8f8;
 
   /*--dark-color: #9d985d;*/
@@ -14,10 +13,9 @@
 
   --menu-height: 59px;
 
-  --font-ornate: 'Amatic SC', cursive;
-  /*--font-common: 'Quicksand', sans-serif;*/
+  --font-ornate: 'Mistrully', serif;
   --font-common: 'Cinzel', serif;
-  --font-menu: var(--font-ornate);
+  --font-menu: var(--font-common);
 }
 
 body {

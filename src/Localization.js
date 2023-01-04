@@ -34,8 +34,7 @@ export let localizedStrings = new LocalizedStrings({
             venue: {
                 title: "Új Tanyacsárda, Lajosmizse",
                 location: "150 Közös, Felsőlajos, 6055"
-            },
-            details: "...further details coming soon..."
+            }
         },
         accommodation: {
             information: {
@@ -137,8 +136,7 @@ export let localizedStrings = new LocalizedStrings({
             venue: {
                 title: "Lajosmizse, Új Tanyacsárda",
                 location: "6055 Felsőlajos, Közös 150."
-            },
-            details: "...további részletek hamarosan..."
+            }
         },
         accommodation: {
             information: {

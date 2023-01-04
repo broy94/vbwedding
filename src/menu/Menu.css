@@ -35,8 +35,8 @@ span:has(a.navbar-brand.active-main) {
 
 div.navbar-nav {
     font-family: var(--font-menu);
-    letter-spacing: 2px;
-    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-size: 1.1em;
 }
 
 div.navbar-nav.me-auto a.nav-link:hover {

@@ -1,3 +1,8 @@
+span.rsvp {
+    background-color: var(--bg-color);
+    opacity: .8;
+}
+
 span.rsvp a {
     font-size: 1em;
     font-family: 'Cinzel', serif;

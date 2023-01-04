@@ -1,6 +1,5 @@
 #main {
-    font-family: var(--font-ornate);
-    text-align: left;
+    /*text-align: left;*/
     min-height: var(--section-height);
 
     background-image: url("./main.png");
@@ -17,11 +16,8 @@
     }
 }
 
-#main h1.display-1 {
+#main .title {
     color: var(--dark-color);
-}
-
-#main h1.display-1, #main h2 {
     font-family: var(--font-ornate);
 }
 
@@ -30,12 +26,6 @@
 }
 
 #main small {
-    font-size: 1.5em;
+    font-size: 1.2em;
     opacity: .7;
-}
-
-#main small.details {
-    font-size: .8em;
-    font-family: var(--font-common);
-    /*font-style: italic;*/
 }
