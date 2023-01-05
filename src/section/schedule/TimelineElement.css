@@ -1,29 +1,29 @@
 .vertical-timeline .vertical-timeline-element-content {
-    -webkit-box-shadow: 0 3px 0 var(--dark-color);
-    box-shadow: 0 3px 0 var(--dark-color);
+    /*-webkit-box-shadow: 0 3px 0 var(--dark-color);*/
+    /*box-shadow: 0 3px 0 var(--dark-color);*/
+    /*box-shadow: none;*/
+    box-shadow: 1px 1px 1px 1px var(--dark-color);
+    /*border: 1px solid var(--dark-color);*/
 }
 
 .vertical-timeline-element .vertical-timeline-element-date.time {
-    color: var(--bg-color);
+    color: var(--dark-color);
     padding-top: .5em;
     padding-bottom: 0;
+    font-weight: bold;
 }
-@media only screen and (min-width: 1170px) {
-    .vertical-timeline-element .vertical-timeline-element-date.time {
-        color: var(--light-color);
-    }
+#schedule h4 {
+    color: var(--dark-color);
 }
+/*@media only screen and (min-width: 1170px) {*/
+/*    .vertical-timeline-element .vertical-timeline-element-date.time {*/
+/*        font-weight: bold;*/
+/*        color: var(--dark-color);*/
+/*    }*/
+/*}*/
 
 .vertical-timeline-element .vertical-timeline-element-icon.icon {
-    -webkit-box-shadow: 0 0 0 4px var(--dark-color), inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
-    box-shadow: 0 0 0 4px var(--dark-color), inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
-}
-
-.vertical-timeline-element span.button {
-    background-color: var(--bg-color);
-}
-.vertical-timeline-element span.button a,
-.vertical-timeline-element span.button a:hover
-{
-    color: var(--light-color);
+    /*-webkit-box-shadow: 0 0 0 4px var(--dark-color), inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);*/
+    /*box-shadow: 0 0 0 4px var(--dark-color), inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);*/
+    box-shadow: 1px 1px 1px 1px var(--dark-color);
 }

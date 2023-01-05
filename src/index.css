@@ -1,14 +1,15 @@
 :root {
-  --dark-color: #3b3b3b;
-  --light-color: #706d6d;
-  --bg-color: #f8f8f8;
-  --fourth-color: white;
+    --dark-color: #3b3b3b;
+    --light-color: #706d6d;
+    --third-color: #d3d3d3;
+    --bg-color: #f8f8f8;
+    --fourth-color: white;
 
-  --menu-height: 59px;
+    --menu-height: 59px;
 
-  --font-ornate: 'Mistrully', serif;
-  --font-common: 'Cinzel', serif;
-  --font-menu: var(--font-common);
+    --font-ornate: 'Mistrully', serif;
+    --font-common: 'Cinzel', serif;
+    --font-menu: var(--font-common);
 }
 
 body {
@@ -34,6 +35,7 @@ span.button {
   display: inline-block;
 }
 span.button a {
+    color: var(--light-color);
     text-decoration: none;
 }
 span.button:not(.hover-button):hover,
