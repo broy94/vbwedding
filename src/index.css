@@ -1,15 +1,8 @@
 :root {
-  /*--dark-color: #86530e;*/
-  /*--light-color: #bd8332;*/
-  /*--bg-color: beige;*/
-
   --dark-color: #3b3b3b;
   --light-color: #706d6d;
   --bg-color: #f8f8f8;
-
-  /*--dark-color: #9d985d;*/
-  /*--light-color: #bcb45d;*/
-  /*--bg-color: #f2eec1;*/
+  --fourth-color: white;
 
   --menu-height: 59px;
 
@@ -27,7 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-color);
+  background-color: var(--dark-color);
 }
 
 code {
@@ -40,13 +33,40 @@ span.button {
   cursor: pointer;
   display: inline-block;
 }
-span.button:not(.hover-button):hover {
-  box-shadow: 1px 1px 1px 1px var(--dark-color);
-}
-span.button:not(.hover-button), span.button.hover-button:hover {
-  box-shadow: 1px 1px 1px 1px var(--light-color);
-}
 span.button a {
-  text-decoration: none;
+    text-decoration: none;
+}
+span.button:not(.hover-button):hover,
+span.button.hover-button:hover
+{
+    box-shadow: 1px 1px 1px 1px var(--dark-color);
+    background-color: var(--fourth-color);
+}
+span.button:not(.hover-button)
+{
+    box-shadow: 1px 1px 1px 1px var(--light-color);
+}
+
+/*dark*/
+span.button.dark
+{
+    box-shadow: none;
+    background-color: var(--dark-color);
+    border: 1px solid var(--fourth-color);
+}
+span.button.dark:not(.hover-button):hover {
+    background-color: var(--fourth-color);
+}
+span.button.dark:not(.hover-button):hover a {
+    color: var(--dark-color);
+}
+span.button.dark a {
+    color: var(--fourth-color);
 }
 /*#endregion*/
+
+@media only screen and (min-width: 768px) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+}

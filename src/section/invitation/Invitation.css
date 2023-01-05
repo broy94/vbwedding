@@ -1,3 +1,7 @@
+#invitation {
+    background-color: var(--dark-color);
+}
+
 .carousel-indicators li {
     padding: 0.2em;
     /*background-color: var(--dark-color);*/
@@ -17,10 +21,4 @@
 .carousel-control-next-icon {
     /*filter: none !important;*/
     /*background-color: red !important;*/
-}
-
-@media only screen and (min-width: 768px) {
-    .w-md-50 {
-        width: 50% !important;
-    }
 }

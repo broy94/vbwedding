@@ -19,8 +19,8 @@ function Invitation({currentLanguage}) {
     const back = getBack(currentLanguage);
 
     return (
-        <Section id="invitation">
-            <Container className="w-md-50 mt-2">
+        <Section id="invitation" className="p-md-5 p-4">
+            <Container className="w-md-50 pt-5">
                 <Row>
                     <Col>
                         <MDBCarousel showIndicators showControls dark fade interval={15000}>
@@ -41,7 +41,7 @@ function Invitation({currentLanguage}) {
                 </Row>
                 <Row>
                     <Col>
-                        <RsvpButton/>
+                        <RsvpButton className="dark" />
                     </Col>
                 </Row>
             </Container>

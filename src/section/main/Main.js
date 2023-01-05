@@ -33,7 +33,7 @@ function Main() {
                 </Row>
                 <Row>
                     <Col>
-                        <RsvpButton/>
+                        <RsvpButton />
                     </Col>
                 </Row>
             </Container>
