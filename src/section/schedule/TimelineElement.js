@@ -22,11 +22,11 @@ function TimelineElement(props) {
     return (
         <VerticalTimelineElement
             id={props.element.id}
-            contentStyle={{background: 'var(--bg-color)', color: 'var(--light-color)'}}
-            contentArrowStyle={{borderRight: '7px solid var(--bg-color)'}}
+            contentStyle={{background: 'var(--p4-color)', color: 'var(--p2-color)'}}
+            contentArrowStyle={{borderRight: '7px solid var(--p4-color)'}}
             date={localizedStrings.schedule[props.element.localizationId].time}
             dateClassName="time"
-            iconStyle={{background: 'var(--bg-color)', color: 'var(--dark-color)'}}
+            iconStyle={{background: 'var(--p4-color)', color: 'var(--p1-color)'}}
             icon={<FontAwesomeIcon icon={props.element.icon}/>}
             iconClassName="icon">
             <h4 className="vertical-timeline-element-title">

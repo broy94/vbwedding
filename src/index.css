@@ -1,9 +1,10 @@
 :root {
-    --dark-color: #3b3b3b;
-    --light-color: #706d6d;
-    --third-color: #d3d3d3;
-    --bg-color: #f8f8f8;
-    --fourth-color: white;
+    --p1-color: #3b3b3b;
+    --p2-color: #706d6d;
+    --p3-color: #d3d3d3;
+    --p4-color: #f8f8f8;
+    --p5-color: white;
+    --s1-color: #dcab2b;
 
     --menu-height: 59px;
 
@@ -21,7 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--dark-color);
+  background-color: var(--p1-color);
 }
 
 code {
@@ -35,35 +36,35 @@ span.button {
   display: inline-block;
 }
 span.button a {
-    color: var(--light-color);
+    color: var(--p2-color);
     text-decoration: none;
 }
 span.button:not(.hover-button):hover,
 span.button.hover-button:hover
 {
-    box-shadow: 1px 1px 1px 1px var(--dark-color);
-    background-color: var(--fourth-color);
+    box-shadow: 1px 1px 1px 1px var(--p1-color);
+    background-color: var(--p5-color);
 }
 span.button:not(.hover-button)
 {
-    box-shadow: 1px 1px 1px 1px var(--light-color);
+    box-shadow: 1px 1px 1px 1px var(--p2-color);
 }
 
 /*dark*/
 span.button.dark
 {
     box-shadow: none;
-    background-color: var(--dark-color);
-    border: 1px solid var(--fourth-color);
+    background-color: var(--p1-color);
+    border: 1px solid var(--p5-color);
 }
 span.button.dark:not(.hover-button):hover {
-    background-color: var(--fourth-color);
+    background-color: var(--p5-color);
 }
 span.button.dark:not(.hover-button):hover a {
-    color: var(--dark-color);
+    color: var(--p1-color);
 }
 span.button.dark a {
-    color: var(--fourth-color);
+    color: var(--p5-color);
 }
 /*#endregion*/
 

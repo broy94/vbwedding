@@ -1,5 +1,5 @@
 nav.bg-light {
-    background-color: var(--bg-color) !important;
+    background-color: var(--p4-color) !important;
 }
 
 nav {
@@ -7,7 +7,7 @@ nav {
 }
 
 div.navbar-collapse span.scroller-link {
-    background-color: var(--bg-color);
+    background-color: var(--p4-color);
 }
 
 /*#region NAVBAR BRAND*/
@@ -19,10 +19,10 @@ div.navbar-collapse span.scroller-link {
 a.navbar-brand {
     font-family: var(--font-ornate);
     font-size: 30px;
-    color: var(--dark-color);
+    color: var(--p1-color);
 }
 a.navbar-brand:hover {
-    color: var(--light-color);
+    color: var(--p2-color);
 }
 span:has(a.navbar-brand:not(.active-main)) {
     transition: transform 0.5s linear;
@@ -40,12 +40,12 @@ div.navbar-nav {
 }
 
 div.navbar-nav.me-auto a.nav-link:hover {
-    color: var(--dark-color);
+    color: var(--p1-color);
     text-decoration-line: underline;
     text-underline-offset: 7px;
 }
 .navbar-nav .nav-link.active-link  {
-    color: var(--dark-color);
+    color: var(--p1-color);
     text-decoration-line: underline;
     text-underline-offset: 7px;
 }
@@ -53,11 +53,11 @@ div.navbar-nav.me-auto a.nav-link:hover {
 div.navbar-nav a.nav-link,
 div.navbar-nav a.nav-link.active-link
 {
-    color: var(--light-color) !important;
+    color: var(--p2-color) !important;
 }
 
 div.navbar-nav a.nav-link.rsvp {
-    background-color: var(--bg-color);
+    background-color: var(--p4-color);
 }
 
 button.navbar-toggler.collapsed .navbar-toggler-icon {
@@ -72,7 +72,7 @@ button.navbar-toggler .navbar-toggler-icon {
 }
 
 button.navbar-toggler {
-    color: var(--dark-color);
+    color: var(--p1-color);
     border: none;
     box-shadow: none !important;
 }

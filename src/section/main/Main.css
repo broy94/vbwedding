@@ -17,12 +17,12 @@
 }
 
 #main .title {
-    color: var(--dark-color);
+    color: var(--p1-color);
     font-family: var(--font-ornate);
 }
 
 #main a {
-    color: var(--light-color);
+    color: var(--p2-color);
 }
 
 #main small {

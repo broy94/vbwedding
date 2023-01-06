@@ -89,7 +89,7 @@ const timelineElements = [
 function Schedule() {
     return (
         <Section id="schedule">
-            <VerticalTimeline children lineColor="var(--dark-color)">
+            <VerticalTimeline children lineColor="var(--p1-color)">
                 {timelineElements.map(createTimelineElement)}
             </VerticalTimeline>
         </Section>

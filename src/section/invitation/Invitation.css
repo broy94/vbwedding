@@ -1,10 +1,10 @@
 #invitation {
-    background-color: var(--dark-color);
+    background-color: var(--p1-color);
 }
 
 .carousel-indicators li {
     padding: 0.2em;
-    /*background-color: var(--dark-color);*/
+    /*background-color: var(--p1-color);*/
     background-color: #9d985d;
     /*width: 2em;*/
     margin-left: 0.3em;

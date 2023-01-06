@@ -25,7 +25,7 @@ const customStyles = {
     control: base => ({
         ...base,
         cursor: 'pointer',
-        backgroundColor: 'var(--bg-color)',
+        backgroundColor: 'var(--p4-color)',
         minHeight: 30,
         height: 30,
         border: 'none',
@@ -36,10 +36,10 @@ const customStyles = {
         return {
             ...base,
             cursor: 'pointer',
-            backgroundColor: state.isSelected ? 'var(--bg-color)' : 'var(--bg-color)',
+            backgroundColor: state.isSelected ? 'var(--p4-color)' : 'var(--p4-color)',
             padding: 0,
             borderRadius: '2px',
-            border: '1px solid var(--light-color)'
+            border: '1px solid var(--p2-color)'
         };
     }
 };
