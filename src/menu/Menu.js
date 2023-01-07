@@ -7,6 +7,8 @@ import './Menu.css';
 import {localizedStrings} from "../Localization";
 import Brand from "../brand.png";
 
+const googleFormsLink = "https://forms.gle/2HpVHVdFGA3qiUaf7";
+
 function Menu(props) {
     return (
         <Navbar sticky="top" bg="light" expand="md">
@@ -22,7 +24,7 @@ function Menu(props) {
                         <Nav.Link as={ScrollerLink} to="schedule" spy={true} activeClass="active-link">{localizedStrings.menu.schedule}</Nav.Link>
                         {/*<Nav.Link as={ScrollerLink} to="seating" spy={true} activeClass="active-link">{localizedStrings.menu.seating}</Nav.Link>*/}
                         <Nav.Link as={ScrollerLink} to="accommodation" spy={true} activeClass="active-link">{localizedStrings.menu.accommodation}</Nav.Link>
-                        <Nav.Link href="https://forms.gle/2HpVHVdFGA3qiUaf7" target="_blank" className="rsvp">{localizedStrings.menu.rsvp}</Nav.Link>
+                        <Nav.Link href={googleFormsLink} target="_blank" className="rsvp">{localizedStrings.menu.rsvp}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <LanguageSelector className="d-none d-md-block" onLanguageChange={props.onLanguageChange}  currentLanguage={props.currentLanguage}/>

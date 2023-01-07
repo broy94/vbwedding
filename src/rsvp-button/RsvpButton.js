@@ -1,7 +1,7 @@
 import "./RsvpButton.css";
 import {localizedStrings} from "../Localization";
 
-const googleFormsLink = "https://goo.gl/maps/c9ff9wVG3VXiVAAV8";
+const googleFormsLink = "https://forms.gle/2HpVHVdFGA3qiUaf7";
 
 function RsvpButton({className}) {
     const classNames = className ? " " + className : "";
