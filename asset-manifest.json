@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4aae95b2.css",
-    "main.js": "/static/js/main.009ea62b.js",
+    "main.css": "/static/css/main.1ba05282.css",
+    "main.js": "/static/js/main.d3f11707.js",
     "static/media/main.png": "/static/media/main.0f373e54902063046014.png",
     "static/media/brand.png": "/static/media/brand.449777a8f48b7d29adee.png",
     "static/media/invitation_hu_front.png": "/static/media/invitation_hu_front.4a566a0b817337dd6592.png",
@@ -10,11 +10,11 @@
     "static/media/invitation_en_back.png": "/static/media/invitation_en_back.601f496ab58dc25f1780.png",
     "static/media/accommodation.png": "/static/media/accommodation.21578bd342a8d7816478.png",
     "index.html": "/index.html",
-    "main.4aae95b2.css.map": "/static/css/main.4aae95b2.css.map",
-    "main.009ea62b.js.map": "/static/js/main.009ea62b.js.map"
+    "main.1ba05282.css.map": "/static/css/main.1ba05282.css.map",
+    "main.d3f11707.js.map": "/static/js/main.d3f11707.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aae95b2.css",
-    "static/js/main.009ea62b.js"
+    "static/css/main.1ba05282.css",
+    "static/js/main.d3f11707.js"
   ]
 }
