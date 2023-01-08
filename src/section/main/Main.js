@@ -4,6 +4,7 @@ import {localizedStrings} from "../../Localization";
 import Button from "../../rsvp-button/Button";
 
 const googleMapsLink = "https://goo.gl/maps/c9ff9wVG3VXiVAAV8";
+const googleFormsLink = "https://forms.gle/2HpVHVdFGA3qiUaf7";
 
 function Main() {
     return (
@@ -23,7 +24,7 @@ function Main() {
                 </a>
             </div>
             <div className="d-flex justify-content-center">
-                <Button className="my-2">
+                <Button className="my-2 px-2 py-0" href={googleFormsLink} blankTarget>
                     {localizedStrings.rsvpButton}
                 </Button>
             </div>

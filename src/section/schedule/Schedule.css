@@ -1,8 +1,4 @@
 #schedule {
-    /*background-image: url("./viki.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: right;*/
-    /*background-size: contain;*/
     background: linear-gradient(200deg, var(--p4-color) 0%, var(--p3-color) 50%, var(--p4-color) 100%);
     box-shadow: 0 0 20px 20px var(--p3-color) inset;
 }

@@ -1,6 +1,6 @@
 span.button {
     border: 1px solid var(--s1-color);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     cursor: pointer;
     display: inline-block;
 }

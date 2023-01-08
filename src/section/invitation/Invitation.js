@@ -15,6 +15,8 @@ import {localizedStrings} from "../../Localization";
 const getFront = lang => lang === "hu" ? invHuFront : invEnFront;
 const getBack = lang => lang === "hu" ? invHuBack : invEnBack;
 
+const googleFormsLink = "https://forms.gle/2HpVHVdFGA3qiUaf7";
+
 function Invitation({currentLanguage}) {
     const front = getFront(currentLanguage);
     const back = getBack(currentLanguage);
@@ -42,7 +44,7 @@ function Invitation({currentLanguage}) {
                 </Row>
                 <Row>
                     <Col>
-                        <Button className="my-3 dark">
+                        <Button className="my-3 px-2 py-0 dark" href={googleFormsLink} blankTarget>
                             {localizedStrings.rsvpButton}
                         </Button>
                     </Col>

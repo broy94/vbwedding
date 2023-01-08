@@ -1,13 +1,15 @@
 import "./Button.css";
-import {localizedStrings} from "../Localization";
 
-const googleFormsLink = "https://forms.gle/2HpVHVdFGA3qiUaf7";
-
-function Button({className, children}) {
+function Button({children, className, href, blankTarget}) {
+    const aProps = {};
+    if (blankTarget) {
+        aProps.target = "_blank";
+        aProps.rel = "noreferrer";
+    }
     const classNames = className ? " " + className : "";
     return (
-        <span className={"button px-2 py-0" + classNames}>
-            <a href={googleFormsLink} target="_blank" rel="noreferrer">
+        <span className={"button" + classNames}>
+            <a href={href} {...aProps}>
                 {children}
             </a>
         </span>
