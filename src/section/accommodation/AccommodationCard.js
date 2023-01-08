@@ -4,7 +4,6 @@ import {
     faArrowsLeftRightToLine,
     faEnvelope,
     faGlobe,
-    faHotel,
     faMapLocationDot,
     faPerson,
     faPhone
@@ -12,11 +11,8 @@ import {
 
 function AccommodationCard(props) {
     return (
-        <Col sm className="py-3">
+        <Col sm className="py-3 accommodation-card">
             <Stack>
-                <div>
-                    <FontAwesomeIcon icon={faHotel} />
-                </div>
                 <div>
                     <h5>{props.accommodation.name}</h5>
                 </div>

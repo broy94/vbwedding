@@ -77,7 +77,7 @@ function Accommodation() {
                 <Row>
                     <Col className="py-4">
                         <div className="w-75 mx-auto">
-                            <h2>
+                            <h2 className="info-icon">
                                 <FontAwesomeIcon icon={faCircleInfo}/>
                             </h2>
                             {localizedStrings.accommodation.information.text} <a href="https://www.tanyacsarda.hu/szolgaltatasaink/szallas/" target="_blank" rel="noreferrer">{localizedStrings.accommodation.information.linkText}</a>.

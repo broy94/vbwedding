@@ -1,3 +1,7 @@
+#accommodation {
+    min-height: var(--section-height);
+}
+
 @media only screen and (min-width: 768px) {
     #accommodation {
         background-image: url("./accommodation.png");
@@ -7,13 +11,19 @@
     }
 }
 
-#accommodation div.container {
-    min-height: var(--section-height);
+#accommodation .info-icon {
+    color: var(--s1-color);
+}
+
+.accommodation-card h5 {
+    color: var(--s1-color);
 }
 
 #accommodation a {
-    color: var(--p1-color);
+    color: var(--s1-color);
+    text-underline-offset: 2px;
 }
+
 #accommodation a:hover {
-    color: var(--p2-color);
+    opacity: .8;
 }
