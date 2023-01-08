@@ -25,49 +25,6 @@ body {
   background-color: var(--p1-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-/*#region BUTTON*/
-span.button {
-  cursor: pointer;
-  display: inline-block;
-}
-span.button a {
-    color: var(--p2-color);
-    text-decoration: none;
-}
-span.button:not(.hover-button):hover,
-span.button.hover-button:hover
-{
-    box-shadow: 1px 1px 1px 1px var(--p1-color);
-    background-color: var(--p5-color);
-}
-span.button:not(.hover-button)
-{
-    box-shadow: 1px 1px 1px 1px var(--p2-color);
-}
-
-/*dark*/
-span.button.dark
-{
-    box-shadow: none;
-    background-color: var(--p1-color);
-    border: 1px solid var(--p5-color);
-}
-span.button.dark:not(.hover-button):hover {
-    background-color: var(--p5-color);
-}
-span.button.dark:not(.hover-button):hover a {
-    color: var(--p1-color);
-}
-span.button.dark a {
-    color: var(--p5-color);
-}
-/*#endregion*/
-
 @media only screen and (min-width: 768px) {
   .w-md-50 {
     width: 50% !important;

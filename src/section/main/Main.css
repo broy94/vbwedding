@@ -17,15 +17,19 @@
 }
 
 #main .title {
-    color: var(--p1-color);
+    color: var(--s1-color);
     font-family: var(--font-ornate);
-}
-
-#main a {
-    color: var(--p2-color);
 }
 
 #main small {
     font-size: 1.2em;
     opacity: .7;
+}
+
+a:has(span.hover-button) {
+    text-decoration: none;
+    color: var(--p1-color);
+}
+a:has(span.hover-button):hover {
+    box-shadow: 0 0 1px 1px var(--s1-color);
 }

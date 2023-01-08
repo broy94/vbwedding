@@ -1,17 +1,17 @@
-import "./RsvpButton.css";
+import "./Button.css";
 import {localizedStrings} from "../Localization";
 
 const googleFormsLink = "https://forms.gle/2HpVHVdFGA3qiUaf7";
 
-function RsvpButton({className}) {
+function Button({className, children}) {
     const classNames = className ? " " + className : "";
     return (
-        <span className={"button my-3 px-2 py-0 rsvp" + classNames}>
+        <span className={"button px-2 py-0" + classNames}>
             <a href={googleFormsLink} target="_blank" rel="noreferrer">
-                {localizedStrings.rsvpButton}
+                {children}
             </a>
         </span>
     );
 }
 
-export default RsvpButton;
+export default Button;

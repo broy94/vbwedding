@@ -9,7 +9,8 @@ import invHuFront from "./invitation_hu_front.png";
 import invHuBack from "./invitation_hu_back.png";
 import invEnFront from "./invitation_en_front.png";
 import invEnBack from "./invitation_en_back.png";
-import RsvpButton from "../../rsvp-button/RsvpButton";
+import Button from "../../rsvp-button/Button";
+import {localizedStrings} from "../../Localization";
 
 const getFront = lang => lang === "hu" ? invHuFront : invEnFront;
 const getBack = lang => lang === "hu" ? invHuBack : invEnBack;
@@ -41,7 +42,9 @@ function Invitation({currentLanguage}) {
                 </Row>
                 <Row>
                     <Col>
-                        <RsvpButton className="dark" />
+                        <Button className="my-3 dark">
+                            {localizedStrings.rsvpButton}
+                        </Button>
                     </Col>
                 </Row>
             </Container>
